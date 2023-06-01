@@ -1,0 +1,21 @@
+.transaction_history {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_head {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.table_data {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
