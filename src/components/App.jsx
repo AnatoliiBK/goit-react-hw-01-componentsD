@@ -1,3 +1,6 @@
+import friends from "./friends/friends.json";
+import { FriendList } from './friends/FriendList.jsx';
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template test
+      React homework template
+      <FriendList friends={friends} />
     </div>
   );
 };
