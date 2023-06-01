@@ -1,5 +1,6 @@
 import user from "./user/user.json";
 import data from "./statistic/statistics.json";
+import friends from "./friends/friends.json";
 import { Profile } from "./user/Profile.jsx";
 import { Statistics } from './statistic/Staistics.jsx';
 
