@@ -1,6 +1,3 @@
-import friends from "./friends/friends.json";
-import { FriendList } from './friends/FriendList.jsx';
-
 export const App = () => {
   return (
     <div
@@ -14,7 +11,6 @@ export const App = () => {
       }}
     >
       React homework template
-      <FriendList friends={friends} />
     </div>
   );
 };
