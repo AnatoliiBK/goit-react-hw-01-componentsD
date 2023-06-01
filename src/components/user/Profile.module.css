@@ -1,0 +1,88 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavenderblush;
+  }
+
+.profile_offline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornsilk;
+} 
+  
+  .description {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    border: 1px solid black;
+    border-bottom: none;
+    padding-top: 30px;
+    background-color: rgb(245, 242, 242);
+  }
+
+  .description:hover {
+    background-color: ghostwhite;
+  }
+  
+  .avatar {
+    margin-bottom: 60px;
+    width: 300px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 50%;
+    background-color: rgb(221, 221, 211);
+  }
+
+  .description:hover .avatar {
+    background-color: floralwhite;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .tag {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  
+  .location {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  
+  .stats {
+    width: 512px;
+    height: 110px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+    border: 1px solid black;
+    border-top: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(227, 225, 225);
+  }
+  
+  .stats_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 20px;
+  }
+  
+  .quantity {
+    font-size: 20px;
+    font-weight: 700;
+  }
