@@ -3,6 +3,7 @@ import data from "./statistic/statistics.json";
 import transactions from "./transactions/transactions.json";
 import { Profile } from "./user/Profile.jsx";
 import { Statistics } from './statistic/Staistics.jsx';
+import friends from "./friends/friends.json";
 import { TransactionHistory } from './transactions/Transactions.jsx';
 
 export const App = () => {
