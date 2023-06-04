@@ -1,5 +1,6 @@
 import { getRandomColor } from "./random_color";
 import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
   // Створити об'єкт для зберігання об'єднаних даних
@@ -39,3 +40,12 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    label: PropTypes.string,
+    percentage: PropTypes.number
+  }))
+}
